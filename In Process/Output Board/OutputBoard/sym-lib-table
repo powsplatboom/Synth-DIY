@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OutputBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/OutputBoard-rescue.lib)(options "")(descr ""))
+)

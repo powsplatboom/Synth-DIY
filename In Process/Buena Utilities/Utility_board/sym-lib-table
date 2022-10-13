@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Phone_Jack)(type Legacy)(uri "C:/Users/none4u/Documents/Kicad Files/Drum Sequencer/Control Board/Control Board/Phone_Jack.lib")(options "")(descr ""))
+  (lib (name sn74hc393)(type Legacy)(uri C:/Users/none4u/Downloads/LIB_SN74HC393N/SN74HC393N/KiCad/SN74HC393N.lib)(options "")(descr ""))
+  (lib (name Utility_board-rescue)(type Legacy)(uri ${KIPRJMOD}/Utility_board-rescue.lib)(options "")(descr ""))
+)
