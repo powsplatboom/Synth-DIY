@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PJ-3001f-Phone_Jack-Utility_board-rescue
+#
+DEF PJ-3001f-Phone_Jack-Utility_board-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PJ-3001f-Phone_Jack-Utility_board-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 -300 -400 -500 0 1 0 N
+S -300 -250 -300 -300 0 1 0 N
+S 250 -250 -300 -250 0 1 0 N
+P 2 0 1 0 300 -550 250 -550 N
+P 2 0 1 0 300 -400 250 -400 N
+P 2 0 1 0 300 -250 250 -250 N
+P 4 0 1 0 -250 -250 -250 -550 -300 -550 -300 -250 N
+P 4 0 1 0 250 -550 -50 -550 -100 -500 -150 -550 N
+P 5 0 1 0 300 -200 300 -600 -300 -600 -300 -200 300 -200 N
+P 7 0 1 0 250 -400 50 -400 50 -550 0 -500 100 -500 50 -550 50 -500 N
+X LINE 1 400 -550 100 L 50 50 1 1 P
+X NC 2 400 -400 100 L 50 50 1 1 P
+X GND 3 400 -250 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# benjolin_1.6-eagle-import_PJ301_THONKICONN6-benjolin_1.6-cache
+#
+DEF benjolin_1.6-eagle-import_PJ301_THONKICONN6-benjolin_1.6-cache J 0 40 Y Y 1 L N
+F0 "J" -100 160 59 H V L BNN
+F1 "benjolin_1.6-eagle-import_PJ301_THONKICONN6-benjolin_1.6-cache" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 90 -20 310 20 1 0 0 F
+P 2 1 0 0 -100 -100 180 -100 N
+P 2 1 0 0 -100 0 -30 0 N
+P 2 1 0 0 -100 100 0 100 N
+P 2 1 0 0 -40 60 -20 60 N
+P 2 1 0 0 -30 0 -30 90 N
+P 2 1 0 0 -30 90 -40 60 N
+P 2 1 0 0 -20 60 -30 90 N
+P 2 1 0 0 0 100 60 40 N
+P 2 1 0 0 60 40 90 70 N
+X 1 1 -200 -100 100 R 50 0 1 0 P
+X 2 2 -200 0 100 R 50 0 1 0 P
+X 3 3 -200 100 100 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

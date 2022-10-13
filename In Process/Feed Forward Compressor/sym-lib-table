@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Feed-Forward-Compressor-rescue)(type Legacy)(uri "${KIPRJMOD}/Feed Forward Compressor-rescue.lib")(options "")(descr ""))
+)

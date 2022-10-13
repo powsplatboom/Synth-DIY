@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SLB1470-SLB1470
+#
+DEF SLB1470-SLB1470 S 0 30 Y Y 1 F N
+F0 "S" 950 300 50 H V L CNN
+F1 "SLB1470-SLB1470" 950 200 50 H V L CNN
+F2 "SLB1470" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SLB1470.pdf" 950 0 50 H I L CNN
+F4 "APEM - SLB1470 - SLIDE SWITCH, SP4T, 0.3A, 30VDC, TH" 950 -100 50 H I L CNN "Description"
+F5 "12.5" 950 -200 50 H I L CNN "Height"
+F6 "Apem" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SLB1470" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "642-SLB1470" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Apem/SLB1470?qs=i1KciFEqNAZ1uphlFWBYBA%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -600 200 -600 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 -200 200 R 50 50 0 0 P
+X 3 3 0 -300 200 R 50 50 0 0 P
+X 4 4 0 -400 200 R 50 50 0 0 P
+X COMMON_1 C1 0 0 200 R 50 50 0 0 P
+X COMMON_2 C2 0 -500 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

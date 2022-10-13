@@ -1,0 +1,3931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Documents\Kicad Files\Drum Sequencer\Control Board\Control Board\Control Board.sch</source>
+    <date>1/6/2022 11:56:54 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Control Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U5">
+      <value>74HC595</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616DE5D4</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74HC165</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf</datasheet>
+      <libsource lib="74xx" part="74HC165" description="Shift Register, 8-bit, Parallel Load"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616F6B96</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A2C6</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CCFBE</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CCE72</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CCD26</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CCC11</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CCA32</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CC910</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CC672</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CA513</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A33E</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A334</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A32A</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A320</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A316</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A30C</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A302</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A2F8</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A2EE</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A2E4</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A2DA</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A2D0</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A2BC</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171A2B2</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61719E56</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61712292</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61712288</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171227E</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61712274</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6171226A</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61712260</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61712256</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61711F3A</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6170ACB3</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6170ACA9</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6170AC9F</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6170AA23</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61706435</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61705F4C</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617051D4</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FFB89</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC595</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616E1745</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF315F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3186</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF318C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3192</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3198</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF319E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF31A4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF31AA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF31B0</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF321C</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3222</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3228</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF322E</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3234</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF323A</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3240</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3246</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF324C</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3252</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3258</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF325E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3264</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF326A</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3270</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3276</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF327C</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3282</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3288</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF328E</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF3294</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF329A</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32A0</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32A6</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32AC</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32B2</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32B8</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32BE</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32C4</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32CA</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED_Dual_ACA</value>
+      <footprint>LED_THT:LED_D3.0mm-3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Dual_ACA" description="Dual LED, common cathode on pin 2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32D0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74HC595</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32DC</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B75BE5</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B75F67</tstamp>
+    </comp>
+    <comp ref="SW49">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B764DA</tstamp>
+    </comp>
+    <comp ref="SW57">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B76A28</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F2962A</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F2A416</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F2A420</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F2A42A</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F2A434</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F2A43E</tstamp>
+    </comp>
+    <comp ref="SW50">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F2A448</tstamp>
+    </comp>
+    <comp ref="SW58">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F2A452</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7A0AC</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AF68</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AF72</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AF7C</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AF86</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AF90</tstamp>
+    </comp>
+    <comp ref="SW51">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AF9A</tstamp>
+    </comp>
+    <comp ref="SW59">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AFA4</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AFC6</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AFD0</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AFDA</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AFE4</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AFEE</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7AFF8</tstamp>
+    </comp>
+    <comp ref="SW52">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7B002</tstamp>
+    </comp>
+    <comp ref="SW60">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F7B00C</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9BAE</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C26</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C30</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C3A</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C44</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C4E</tstamp>
+    </comp>
+    <comp ref="SW53">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C58</tstamp>
+    </comp>
+    <comp ref="SW61">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C62</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C83</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C8D</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9C97</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9CA1</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9CAB</tstamp>
+    </comp>
+    <comp ref="SW46">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9CB5</tstamp>
+    </comp>
+    <comp ref="SW54">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9CBF</tstamp>
+    </comp>
+    <comp ref="SW62">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9CC9</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9CEA</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9CF4</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9CFE</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D08</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D12</tstamp>
+    </comp>
+    <comp ref="SW47">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D1C</tstamp>
+    </comp>
+    <comp ref="SW55">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D26</tstamp>
+    </comp>
+    <comp ref="SW63">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D30</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D51</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D5B</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D65</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D6F</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D79</tstamp>
+    </comp>
+    <comp ref="SW48">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D83</tstamp>
+    </comp>
+    <comp ref="SW56">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D8D</tstamp>
+    </comp>
+    <comp ref="SW64">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FC9D97</tstamp>
+    </comp>
+    <comp ref="SW69">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62F54EAB</tstamp>
+    </comp>
+    <comp ref="SW68">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>632B5B9A</tstamp>
+    </comp>
+    <comp ref="SW67">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>632B6646</tstamp>
+    </comp>
+    <comp ref="SW66">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>632B71BA</tstamp>
+    </comp>
+    <comp ref="SW65">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>632B7AB0</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74HC165</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf</datasheet>
+      <libsource lib="74xx" part="74HC165" description="Shift Register, 8-bit, Parallel Load"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>632BC3E1</tstamp>
+    </comp>
+    <comp ref="SW77">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6332BD26</tstamp>
+    </comp>
+    <comp ref="SW76">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6332D17A</tstamp>
+    </comp>
+    <comp ref="SW75">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6332D649</tstamp>
+    </comp>
+    <comp ref="SW74">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6332D97C</tstamp>
+    </comp>
+    <comp ref="SW73">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6332DCF8</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633CA9AD</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633CBF79</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633CBF83</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633CBF8D</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633CBF97</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633CBFA1</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633CBFAB</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633CBFB5</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C6C91</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C912A</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C95A0</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C96A2</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C97B9</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C9949</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C9AC3</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C9C43</tstamp>
+    </comp>
+    <comp ref="SW72">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C652E7</tstamp>
+    </comp>
+    <comp ref="SW71">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C65B4A</tstamp>
+    </comp>
+    <comp ref="SW70">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C66086</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>SLB1470</value>
+      <footprint>SLB1470:SLB1470</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/SLB1470.pdf</datasheet>
+      <fields>
+        <field name="Description">APEM - SLB1470 - SLIDE SWITCH, SP4T, 0.3A, 30VDC, TH</field>
+        <field name="Height">12.5</field>
+        <field name="Manufacturer_Name">Apem</field>
+        <field name="Manufacturer_Part_Number">SLB1470</field>
+        <field name="Mouser Part Number">642-SLB1470</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Apem/SLB1470?qs=i1KciFEqNAZ1uphlFWBYBA%3D%3D</field>
+      </fields>
+      <libsource lib="Control-Board-rescue" part="SLB1470-SLB1470" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D55501</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D58B7E</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D5A2BC</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D5A2C6</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D5A2D0</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D5A2DA</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D5A2E4</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D5A2EE</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D5A2F8</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647BCAEB</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647BE2A9</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647BE2B3</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647BE2BD</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647BE2C7</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647BE2D1</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647BE2DB</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>647BE2E5</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74HC165</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf</datasheet>
+      <libsource lib="74xx" part="74HC165" description="Shift Register, 8-bit, Parallel Load"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D32958</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D341C0</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D341CA</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D341D4</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D341DE</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D341E8</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D341F2</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D341FC</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D34206</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D34218</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D34222</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D3422C</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D34236</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D34240</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D3424A</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D34254</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D3425E</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F46CB0</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F4775F</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F479DA</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F47D83</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F47F80</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F482A6</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F484FD</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F487D7</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F489EA</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F48DC2</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F49000</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66F49283</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>670ADE80</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>670AE201</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>670AE51D</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>670AE731</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>670AE9DF</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>670AEC5B</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>670AF059</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>670AF32A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FAD5C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FD5C1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FDA1C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FDDFE</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FE15F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FE5E5</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FE94D</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FEC39</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FF03F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>.01uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>681FF2EB</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69CDA7B2</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69CDD2EF</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69CDD94C</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69CDDE05</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69CE3BCD</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69CE3BD3</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69CE3BD9</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69CE3BDF</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NPN_CBE</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ACA98AC</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NPN_CBE</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ACABAD9</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NPN_CBE</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ACAC025</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NPN_CBE</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ACAC44B</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ACB3760</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ACB5EF1</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ACB637C</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6ACB6795</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6B8A54E2</tstamp>
+    </comp>
+    <comp ref="R89">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6B8A7973</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6B8A7CE1</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6B8A809A</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6BCB7B8A</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6BCB8589</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6BCB8C91</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6BCB9185</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6C0C7D96</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6C0CA8C8</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6C0CACC2</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6C0CB21D</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x32_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x32_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x32_Male" description="Generic connector, single row, 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616E5919</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>PJ-3001f</value>
+      <footprint>Connector_Audio:PJ-3001_Mono_Phone</footprint>
+      <libsource lib="Phone_Jack" part="PJ-3001f" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6FCA9F2F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NPN_CBE</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6FF58CFF</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6FF5AAFD</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6FF5AB07</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6FF5AB11</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B75195</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B74BDA</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B744FB</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_MEC_5G</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616DCED5</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF32D6</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74HC595</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616DD988</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6193128D</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A891EB</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BE2EBA</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D3CEBB</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D3F8FD</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D3FBF7</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D3FECC</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D40024</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <aliases>
+        <alias>74LS595</alias>
+        <alias>74HCT595</alias>
+        <alias>74AHC595</alias>
+        <alias>74AHCT595</alias>
+      </aliases>
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS165">
+      <aliases>
+        <alias>74HC165</alias>
+      </aliases>
+      <description>Shift Register 8-bit, parallel load</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+        <fp>SO*16*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SSOP*16*5.3x6.2mm*P0.65mm*</fp>
+        <fp>TSSOP*16*4.4x5mm*P0.65*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS165</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~PL" type="input"/>
+        <pin num="2" name="CP" type="input"/>
+        <pin num="3" name="D4" type="input"/>
+        <pin num="4" name="D5" type="input"/>
+        <pin num="5" name="D6" type="input"/>
+        <pin num="6" name="D7" type="input"/>
+        <pin num="7" name="~Q7" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Q7" type="output"/>
+        <pin num="10" name="DS" type="input"/>
+        <pin num="11" name="D0" type="input"/>
+        <pin num="12" name="D1" type="input"/>
+        <pin num="13" name="D2" type="input"/>
+        <pin num="14" name="D3" type="input"/>
+        <pin num="15" name="~CE" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x32_Male">
+      <description>Generic connector, single row, 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x32_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Control-Board-rescue" part="SLB1470-SLB1470">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SLB1470-SLB1470</field>
+        <field name="Footprint">SLB1470</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/SLB1470.pdf</field>
+        <field name="Description">APEM - SLB1470 - SLIDE SWITCH, SP4T, 0.3A, 30VDC, TH</field>
+        <field name="Height">12.5</field>
+        <field name="Manufacturer_Name">Apem</field>
+        <field name="Manufacturer_Part_Number">SLB1470</field>
+        <field name="Mouser Part Number">642-SLB1470</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Apem/SLB1470?qs=i1KciFEqNAZ1uphlFWBYBA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="C1" name="COMMON_1" type="passive"/>
+        <pin num="C2" name="COMMON_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Dual_ACA">
+      <description>Dual LED, common cathode on pin 2</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Dual_ACA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_CBE">
+      <description>NPN transistor, collector/base/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_CBE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phone_Jack" part="PJ-3001f">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PJ-3001f</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LINE" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_MEC_5G">
+      <description>MEC 5G single pole normally-open tactile switch</description>
+      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</docs>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_MEC_5G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>D:\KiCad\share\kicad\library/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>D:\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Control-Board-rescue">
+      <uri>D:\Documents\Kicad Files\Drum Sequencer\Control Board\Control Board/Control Board-rescue.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Phone_Jack">
+      <uri>D:\Documents\Kicad Files\Drum Sequencer\Control Board\Control Board/Phone_Jack.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R71-Pad1)">
+      <node ref="R71" pin="1"/>
+      <node ref="U9" pin="6"/>
+      <node ref="R79" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R77-Pad1)">
+      <node ref="R85" pin="2"/>
+      <node ref="U9" pin="12"/>
+      <node ref="R77" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R78-Pad1)">
+      <node ref="R86" pin="2"/>
+      <node ref="U9" pin="11"/>
+      <node ref="R78" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R72-Pad1)">
+      <node ref="R72" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="R80" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R73-Pad1)">
+      <node ref="U9" pin="4"/>
+      <node ref="R81" pin="2"/>
+      <node ref="R73" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R74-Pad1)">
+      <node ref="R82" pin="2"/>
+      <node ref="R74" pin="1"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="7" name="Net-(R75-Pad1)">
+      <node ref="U9" pin="14"/>
+      <node ref="R75" pin="1"/>
+      <node ref="R83" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R76-Pad1)">
+      <node ref="R76" pin="1"/>
+      <node ref="R84" pin="2"/>
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="9" name="Net-(R86-Pad1)">
+      <node ref="SW77" pin="2"/>
+      <node ref="SW77" pin="2"/>
+      <node ref="R86" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R85-Pad1)">
+      <node ref="R85" pin="1"/>
+      <node ref="SW76" pin="2"/>
+      <node ref="SW76" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R84-Pad1)">
+      <node ref="SW75" pin="2"/>
+      <node ref="SW75" pin="2"/>
+      <node ref="R84" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R48-Pad1)">
+      <node ref="R48" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="R64" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R51-Pad1)">
+      <node ref="R67" pin="2"/>
+      <node ref="U8" pin="14"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R47-Pad1)">
+      <node ref="U8" pin="6"/>
+      <node ref="R63" pin="2"/>
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R49-Pad1)">
+      <node ref="R65" pin="2"/>
+      <node ref="R49" pin="1"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="16" name="Net-(R50-Pad1)">
+      <node ref="R50" pin="1"/>
+      <node ref="R66" pin="2"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="17" name="Net-(R52-Pad1)">
+      <node ref="U8" pin="13"/>
+      <node ref="R68" pin="2"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R64-Pad1)">
+      <node ref="R64" pin="1"/>
+      <node ref="SW66" pin="S2"/>
+    </net>
+    <net code="19" name="Net-(R63-Pad1)">
+      <node ref="SW65" pin="S2"/>
+      <node ref="R63" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R53-Pad1)">
+      <node ref="R53" pin="1"/>
+      <node ref="U8" pin="12"/>
+      <node ref="R69" pin="2"/>
+    </net>
+    <net code="21" name="Net-(R54-Pad1)">
+      <node ref="R54" pin="1"/>
+      <node ref="U8" pin="11"/>
+      <node ref="R70" pin="2"/>
+    </net>
+    <net code="22" name="Net-(J5-Pad19)">
+      <node ref="U8" pin="1"/>
+      <node ref="J5" pin="19"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U9-Pad10)">
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="24" name="Net-(J5-Pad20)">
+      <node ref="U8" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="J5" pin="20"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U9-Pad7)">
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="26" name="Net-(U8-Pad10)">
+      <node ref="U9" pin="9"/>
+      <node ref="U8" pin="10"/>
+    </net>
+    <net code="27" name="Net-(R83-Pad1)">
+      <node ref="SW74" pin="2"/>
+      <node ref="SW74" pin="2"/>
+      <node ref="R83" pin="1"/>
+    </net>
+    <net code="28" name="Net-(R59-Pad1)">
+      <node ref="R60" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="SW69" pin="A"/>
+    </net>
+    <net code="29" name="Net-(R61-Pad1)">
+      <node ref="R62" pin="1"/>
+      <node ref="R61" pin="1"/>
+      <node ref="SW69" pin="B"/>
+    </net>
+    <net code="30" name="Net-(R45-Pad1)">
+      <node ref="SW67" pin="B"/>
+      <node ref="R46" pin="1"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="31" name="Net-(R55-Pad1)">
+      <node ref="SW68" pin="A"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R57-Pad1)">
+      <node ref="R57" pin="1"/>
+      <node ref="R58" pin="1"/>
+      <node ref="SW68" pin="B"/>
+    </net>
+    <net code="33" name="Net-(R43-Pad1)">
+      <node ref="SW67" pin="A"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R39-Pad1)">
+      <node ref="R40" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="SW66" pin="A"/>
+    </net>
+    <net code="35" name="Net-(R41-Pad1)">
+      <node ref="SW66" pin="B"/>
+      <node ref="R42" pin="1"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="36" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="SW65" pin="A"/>
+    </net>
+    <net code="37" name="Net-(R82-Pad1)">
+      <node ref="SW73" pin="2"/>
+      <node ref="R82" pin="1"/>
+      <node ref="SW73" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R81-Pad1)">
+      <node ref="SW72" pin="2"/>
+      <node ref="SW72" pin="2"/>
+      <node ref="R81" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R80-Pad1)">
+      <node ref="R80" pin="1"/>
+      <node ref="SW71" pin="2"/>
+      <node ref="SW71" pin="2"/>
+    </net>
+    <net code="40" name="Net-(R79-Pad1)">
+      <node ref="SW70" pin="2"/>
+      <node ref="SW70" pin="2"/>
+      <node ref="R79" pin="1"/>
+    </net>
+    <net code="41" name="Net-(R65-Pad1)">
+      <node ref="R65" pin="1"/>
+      <node ref="SW67" pin="S2"/>
+    </net>
+    <net code="42" name="Net-(R31-Pad1)">
+      <node ref="SW50" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="SW49" pin="2"/>
+      <node ref="SW49" pin="2"/>
+      <node ref="U6" pin="12"/>
+      <node ref="SW50" pin="2"/>
+      <node ref="SW55" pin="2"/>
+      <node ref="SW55" pin="2"/>
+      <node ref="SW54" pin="2"/>
+      <node ref="SW54" pin="2"/>
+      <node ref="SW56" pin="2"/>
+      <node ref="SW56" pin="2"/>
+      <node ref="SW52" pin="2"/>
+      <node ref="SW52" pin="2"/>
+      <node ref="SW53" pin="2"/>
+      <node ref="SW53" pin="2"/>
+      <node ref="SW51" pin="2"/>
+      <node ref="SW51" pin="2"/>
+    </net>
+    <net code="43" name="Net-(R29-Pad1)">
+      <node ref="SW34" pin="2"/>
+      <node ref="SW39" pin="2"/>
+      <node ref="SW35" pin="2"/>
+      <node ref="SW37" pin="2"/>
+      <node ref="SW34" pin="2"/>
+      <node ref="SW33" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="U6" pin="14"/>
+      <node ref="SW40" pin="2"/>
+      <node ref="SW35" pin="2"/>
+      <node ref="SW36" pin="2"/>
+      <node ref="SW36" pin="2"/>
+      <node ref="SW37" pin="2"/>
+      <node ref="SW40" pin="2"/>
+      <node ref="SW38" pin="2"/>
+      <node ref="SW38" pin="2"/>
+      <node ref="SW33" pin="2"/>
+      <node ref="SW39" pin="2"/>
+    </net>
+    <net code="44" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="SW44" pin="2"/>
+      <node ref="SW42" pin="2"/>
+      <node ref="SW48" pin="2"/>
+      <node ref="SW48" pin="2"/>
+      <node ref="SW44" pin="2"/>
+      <node ref="SW43" pin="2"/>
+      <node ref="U6" pin="13"/>
+      <node ref="SW43" pin="2"/>
+      <node ref="SW46" pin="2"/>
+      <node ref="SW41" pin="2"/>
+      <node ref="SW46" pin="2"/>
+      <node ref="SW47" pin="2"/>
+      <node ref="SW45" pin="2"/>
+      <node ref="SW45" pin="2"/>
+      <node ref="SW47" pin="2"/>
+      <node ref="SW42" pin="2"/>
+      <node ref="SW41" pin="2"/>
+    </net>
+    <net code="45" name="Net-(R67-Pad1)">
+      <node ref="SW69" pin="S2"/>
+      <node ref="R67" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R66-Pad1)">
+      <node ref="SW68" pin="S2"/>
+      <node ref="R66" pin="1"/>
+    </net>
+    <net code="47" name="Net-(R25-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="U6" pin="6"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="48" name="Net-(R26-Pad1)">
+      <node ref="SW9" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="SW13" pin="2"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="SW16" pin="2"/>
+      <node ref="SW16" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW13" pin="2"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="49" name="Net-(R28-Pad1)">
+      <node ref="SW31" pin="2"/>
+      <node ref="SW26" pin="2"/>
+      <node ref="SW31" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="SW29" pin="2"/>
+      <node ref="SW30" pin="2"/>
+      <node ref="SW30" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="SW29" pin="2"/>
+      <node ref="SW32" pin="2"/>
+      <node ref="SW32" pin="2"/>
+      <node ref="SW28" pin="2"/>
+      <node ref="SW25" pin="2"/>
+      <node ref="SW25" pin="2"/>
+      <node ref="SW28" pin="2"/>
+      <node ref="SW26" pin="2"/>
+      <node ref="SW27" pin="2"/>
+      <node ref="SW27" pin="2"/>
+    </net>
+    <net code="50" name="Net-(R27-Pad1)">
+      <node ref="SW21" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="SW20" pin="2"/>
+      <node ref="SW20" pin="2"/>
+      <node ref="SW24" pin="2"/>
+      <node ref="SW24" pin="2"/>
+      <node ref="SW19" pin="2"/>
+      <node ref="SW18" pin="2"/>
+      <node ref="SW19" pin="2"/>
+      <node ref="SW23" pin="2"/>
+      <node ref="SW18" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="SW22" pin="2"/>
+      <node ref="SW17" pin="2"/>
+      <node ref="SW23" pin="2"/>
+      <node ref="SW21" pin="2"/>
+      <node ref="SW17" pin="2"/>
+      <node ref="SW22" pin="2"/>
+    </net>
+    <net code="51" name="Net-(R70-Pad1)">
+      <node ref="R70" pin="1"/>
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="52" name="Net-(R69-Pad1)">
+      <node ref="S1" pin="3"/>
+      <node ref="R69" pin="1"/>
+    </net>
+    <net code="53" name="Net-(R68-Pad1)">
+      <node ref="R68" pin="1"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="54" name="Net-(S1-Pad1)">
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="56" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="57" name="Net-(R19-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="58" name="Net-(R18-Pad2)">
+      <node ref="U5" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="59" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="60" name="Net-(R32-Pad1)">
+      <node ref="SW63" pin="2"/>
+      <node ref="SW63" pin="2"/>
+      <node ref="SW64" pin="2"/>
+      <node ref="SW64" pin="2"/>
+      <node ref="SW58" pin="2"/>
+      <node ref="SW62" pin="2"/>
+      <node ref="SW62" pin="2"/>
+      <node ref="SW61" pin="2"/>
+      <node ref="U6" pin="11"/>
+      <node ref="SW59" pin="2"/>
+      <node ref="SW59" pin="2"/>
+      <node ref="SW57" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="SW60" pin="2"/>
+      <node ref="SW60" pin="2"/>
+      <node ref="SW61" pin="2"/>
+      <node ref="SW58" pin="2"/>
+      <node ref="SW57" pin="2"/>
+    </net>
+    <net code="61" name="Net-(R24-Pad2)">
+      <node ref="U5" pin="7"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="63" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="64" name="Net-(R21-Pad2)">
+      <node ref="U5" pin="4"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="65" name="Net-(R20-Pad2)">
+      <node ref="U5" pin="3"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="66" name="Net-(J5-Pad18)">
+      <node ref="U6" pin="9"/>
+      <node ref="J5" pin="18"/>
+    </net>
+    <net code="67" name="Net-(J5-Pad17)">
+      <node ref="U4" pin="12"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U3" pin="12"/>
+      <node ref="J5" pin="17"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="68" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="69" name="Net-(J5-Pad13)">
+      <node ref="U7" pin="1"/>
+      <node ref="J5" pin="13"/>
+    </net>
+    <net code="70" name="Net-(C8-Pad1)">
+      <node ref="R42" pin="2"/>
+      <node ref="J5" pin="10"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C9-Pad1)">
+      <node ref="J5" pin="11"/>
+      <node ref="R35" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="72" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="J5" pin="12"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="73" name="Net-(J5-Pad21)">
+      <node ref="U10" pin="1"/>
+      <node ref="J5" pin="21"/>
+      <node ref="R87" pin="2"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad14)">
+      <node ref="U2" pin="9"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="75" name="Net-(J5-Pad15)">
+      <node ref="J5" pin="15"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="76" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="J5" pin="8"/>
+      <node ref="R46" pin="2"/>
+    </net>
+    <net code="77" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="J5" pin="29"/>
+    </net>
+    <net code="78" name="Net-(C1-Pad1)">
+      <node ref="J5" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="79" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="J5" pin="30"/>
+    </net>
+    <net code="80" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="J5" pin="31"/>
+    </net>
+    <net code="81" name="Net-(J1-Pad1)">
+      <node ref="J5" pin="32"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="82" name="Net-(C2-Pad1)">
+      <node ref="R62" pin="2"/>
+      <node ref="J5" pin="4"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="83" name="Net-(C4-Pad1)">
+      <node ref="J5" pin="6"/>
+      <node ref="R58" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="84" name="Net-(C5-Pad1)">
+      <node ref="R43" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="85" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="86" name="Net-(C7-Pad1)">
+      <node ref="R39" pin="2"/>
+      <node ref="J5" pin="9"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="87" name="Net-(R16-Pad1)">
+      <node ref="U4" pin="15"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="88" name="Net-(R14-Pad1)">
+      <node ref="U4" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="89" name="Net-(R13-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="90" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="91" name="Net-(R11-Pad1)">
+      <node ref="U4" pin="5"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="92" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="93" name="Net-(R9-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="94" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="95" name="Net-(J5-Pad14)">
+      <node ref="J5" pin="14"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D65-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D65" pin="2"/>
+    </net>
+    <net code="97" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="98" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="99" name="Net-(U3-Pad9)">
+      <node ref="U5" pin="14"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="100" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="101" name="Net-(J5-Pad16)">
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U5" pin="11"/>
+      <node ref="J5" pin="16"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="102" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D49" pin="1"/>
+    </net>
+    <net code="103" name="Net-(D19-Pad3)">
+      <node ref="D51" pin="3"/>
+      <node ref="D19" pin="3"/>
+      <node ref="D20" pin="3"/>
+      <node ref="D36" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="D3" pin="3"/>
+      <node ref="D4" pin="3"/>
+      <node ref="D35" pin="3"/>
+      <node ref="D52" pin="3"/>
+    </net>
+    <net code="104" name="Net-(C3-Pad1)">
+      <node ref="R55" pin="2"/>
+      <node ref="J5" pin="5"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="105" name="Net-(J5-Pad24)">
+      <node ref="J5" pin="24"/>
+      <node ref="R93" pin="2"/>
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="106" name="Net-(U10-Pad2)">
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="107" name="Net-(J5-Pad22)">
+      <node ref="J5" pin="22"/>
+      <node ref="R89" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="108" name="Net-(U11-Pad2)">
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="109" name="Net-(J5-Pad23)">
+      <node ref="R91" pin="2"/>
+      <node ref="J5" pin="23"/>
+      <node ref="U12" pin="1"/>
+    </net>
+    <net code="110" name="Net-(U12-Pad2)">
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="111" name="Net-(U13-Pad2)">
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="112" name="GND">
+      <node ref="U6" pin="15"/>
+      <node ref="U6" pin="8"/>
+      <node ref="R76" pin="2"/>
+      <node ref="R74" pin="2"/>
+      <node ref="R73" pin="2"/>
+      <node ref="R72" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D67" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="D66" pin="1"/>
+      <node ref="R71" pin="2"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R51" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U9" pin="15"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R48" pin="2"/>
+      <node ref="R47" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="U9" pin="8"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R78" pin="2"/>
+      <node ref="R77" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U5" pin="13"/>
+      <node ref="R75" pin="2"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U16" pin="3"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U15" pin="3"/>
+      <node ref="U14" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="13"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U11" pin="3"/>
+      <node ref="U10" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="SW68" pin="C"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C14" pin="1"/>
+      <node ref="D65" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C18" pin="2"/>
+      <node ref="SW69" pin="C"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="SW65" pin="C"/>
+      <node ref="SW66" pin="C"/>
+      <node ref="SW67" pin="C"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U8" pin="15"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="113" name="Net-(J5-Pad25)">
+      <node ref="J5" pin="25"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="114" name="Net-(U14-Pad2)">
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="115" name="Net-(J5-Pad26)">
+      <node ref="J5" pin="26"/>
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="116" name="Net-(U15-Pad2)">
+      <node ref="U15" pin="2"/>
+    </net>
+    <net code="117" name="Net-(J5-Pad27)">
+      <node ref="U16" pin="1"/>
+      <node ref="J5" pin="27"/>
+    </net>
+    <net code="118" name="Net-(R37-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="SW65" pin="B"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="119" name="Net-(U16-Pad2)">
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="120" name="Net-(Q2-Pad2)">
+      <node ref="R87" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="121" name="Net-(Q3-Pad2)">
+      <node ref="R89" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="122" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R91" pin="1"/>
+    </net>
+    <net code="123" name="Net-(Q5-Pad2)">
+      <node ref="R93" pin="1"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="124" name="Net-(D69-Pad2)">
+      <node ref="Q5" pin="3"/>
+      <node ref="D69" pin="2"/>
+    </net>
+    <net code="125" name="Net-(D68-Pad2)">
+      <node ref="Q4" pin="3"/>
+      <node ref="D68" pin="2"/>
+    </net>
+    <net code="126" name="Net-(D67-Pad2)">
+      <node ref="D67" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="127" name="Net-(C11-Pad2)">
+      <node ref="U9" pin="16"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U3" pin="16"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U4" pin="16"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="SW76" pin="1"/>
+      <node ref="SW75" pin="1"/>
+      <node ref="SW66" pin="S1"/>
+      <node ref="SW67" pin="S1"/>
+      <node ref="SW75" pin="1"/>
+      <node ref="SW76" pin="1"/>
+      <node ref="SW77" pin="1"/>
+      <node ref="U8" pin="16"/>
+      <node ref="SW65" pin="S1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="SW74" pin="1"/>
+      <node ref="SW74" pin="1"/>
+      <node ref="SW73" pin="1"/>
+      <node ref="SW73" pin="1"/>
+      <node ref="U5" pin="10"/>
+      <node ref="SW72" pin="1"/>
+      <node ref="SW72" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="SW71" pin="1"/>
+      <node ref="SW71" pin="1"/>
+      <node ref="SW70" pin="1"/>
+      <node ref="SW70" pin="1"/>
+      <node ref="S1" pin="C1"/>
+      <node ref="U6" pin="16"/>
+      <node ref="S1" pin="C2"/>
+      <node ref="SW77" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R41" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R44" pin="2"/>
+      <node ref="SW68" pin="S1"/>
+      <node ref="R90" pin="2"/>
+      <node ref="R92" pin="2"/>
+      <node ref="R94" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R88" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="R57" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C16" pin="2"/>
+      <node ref="SW69" pin="S1"/>
+      <node ref="R60" pin="2"/>
+      <node ref="R61" pin="2"/>
+      <node ref="R56" pin="2"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="128" name="Net-(D66-Pad2)">
+      <node ref="D66" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="129" name="Net-(J5-Pad28)">
+      <node ref="U17" pin="1"/>
+      <node ref="J5" pin="28"/>
+    </net>
+    <net code="130" name="Net-(U17-Pad2)">
+      <node ref="U17" pin="2"/>
+    </net>
+    <net code="131" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R88" pin="1"/>
+    </net>
+    <net code="132" name="Net-(Q3-Pad1)">
+      <node ref="R90" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="133" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R92" pin="1"/>
+    </net>
+    <net code="134" name="Net-(Q5-Pad1)">
+      <node ref="R94" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="135" name="Net-(D15-Pad2)">
+      <node ref="D63" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="D47" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="136" name="Net-(D10-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D57" pin="1"/>
+    </net>
+    <net code="137" name="Net-(D15-Pad3)">
+      <node ref="U2" pin="6"/>
+      <node ref="D63" pin="3"/>
+      <node ref="D48" pin="3"/>
+      <node ref="D47" pin="3"/>
+      <node ref="D31" pin="3"/>
+      <node ref="D32" pin="3"/>
+      <node ref="D64" pin="3"/>
+      <node ref="D15" pin="3"/>
+      <node ref="D16" pin="3"/>
+    </net>
+    <net code="138" name="Net-(D23-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="139" name="Net-(D10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D58" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="140" name="Net-(D11-Pad1)">
+      <node ref="D60" pin="1"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="141" name="Net-(D25-Pad2)">
+      <node ref="D41" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="142" name="Net-(D11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D59" pin="2"/>
+    </net>
+    <net code="143" name="Net-(D21-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D54" pin="1"/>
+    </net>
+    <net code="144" name="Net-(D23-Pad3)">
+      <node ref="U1" pin="6"/>
+      <node ref="D8" pin="3"/>
+      <node ref="D56" pin="3"/>
+      <node ref="D40" pin="3"/>
+      <node ref="D39" pin="3"/>
+      <node ref="D7" pin="3"/>
+      <node ref="D24" pin="3"/>
+      <node ref="D55" pin="3"/>
+      <node ref="D23" pin="3"/>
+    </net>
+    <net code="145" name="Net-(D19-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D51" pin="1"/>
+    </net>
+    <net code="146" name="Net-(D21-Pad3)">
+      <node ref="U1" pin="4"/>
+      <node ref="D37" pin="3"/>
+      <node ref="D6" pin="3"/>
+      <node ref="D38" pin="3"/>
+      <node ref="D5" pin="3"/>
+      <node ref="D21" pin="3"/>
+      <node ref="D54" pin="3"/>
+      <node ref="D22" pin="3"/>
+      <node ref="D53" pin="3"/>
+    </net>
+    <net code="147" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="148" name="Net-(D13-Pad3)">
+      <node ref="D45" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="D61" pin="3"/>
+      <node ref="D14" pin="3"/>
+      <node ref="D30" pin="3"/>
+      <node ref="D13" pin="3"/>
+      <node ref="D62" pin="3"/>
+      <node ref="D29" pin="3"/>
+      <node ref="D46" pin="3"/>
+    </net>
+    <net code="149" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="150" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="151" name="Net-(D15-Pad1)">
+      <node ref="D31" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="D63" pin="1"/>
+    </net>
+    <net code="152" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="153" name="Net-(D16-Pad2)">
+      <node ref="D48" pin="2"/>
+      <node ref="D64" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="154" name="Net-(D12-Pad2)">
+      <node ref="D44" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="155" name="Net-(D13-Pad2)">
+      <node ref="D61" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="D45" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="156" name="Net-(D11-Pad3)">
+      <node ref="D59" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D60" pin="3"/>
+      <node ref="D28" pin="3"/>
+      <node ref="D11" pin="3"/>
+      <node ref="D27" pin="3"/>
+      <node ref="D12" pin="3"/>
+      <node ref="D44" pin="3"/>
+      <node ref="D43" pin="3"/>
+    </net>
+    <net code="157" name="Net-(D10-Pad3)">
+      <node ref="D9" pin="3"/>
+      <node ref="D57" pin="3"/>
+      <node ref="U2" pin="15"/>
+      <node ref="D58" pin="3"/>
+      <node ref="D41" pin="3"/>
+      <node ref="D42" pin="3"/>
+      <node ref="D10" pin="3"/>
+      <node ref="D25" pin="3"/>
+      <node ref="D26" pin="3"/>
+    </net>
+    <net code="158" name="Net-(R21-Pad1)">
+      <node ref="SW21" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="SW61" pin="1"/>
+      <node ref="SW53" pin="1"/>
+      <node ref="SW21" pin="1"/>
+      <node ref="SW61" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW53" pin="1"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="SW45" pin="1"/>
+      <node ref="SW45" pin="1"/>
+      <node ref="SW37" pin="1"/>
+      <node ref="SW37" pin="1"/>
+      <node ref="SW29" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW29" pin="1"/>
+    </net>
+    <net code="159" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="SW44" pin="1"/>
+      <node ref="SW60" pin="1"/>
+      <node ref="SW60" pin="1"/>
+      <node ref="SW52" pin="1"/>
+      <node ref="SW44" pin="1"/>
+      <node ref="SW36" pin="1"/>
+      <node ref="SW36" pin="1"/>
+      <node ref="SW28" pin="1"/>
+      <node ref="SW52" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW28" pin="1"/>
+      <node ref="SW20" pin="1"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW20" pin="1"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="160" name="Net-(R22-Pad1)">
+      <node ref="SW46" pin="1"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW30" pin="1"/>
+      <node ref="SW38" pin="1"/>
+      <node ref="SW38" pin="1"/>
+      <node ref="SW46" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW54" pin="1"/>
+      <node ref="SW54" pin="1"/>
+      <node ref="SW62" pin="1"/>
+      <node ref="SW62" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW22" pin="1"/>
+      <node ref="SW30" pin="1"/>
+      <node ref="SW22" pin="1"/>
+      <node ref="SW14" pin="1"/>
+    </net>
+    <net code="161" name="Net-(R19-Pad1)">
+      <node ref="SW27" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW35" pin="1"/>
+      <node ref="SW35" pin="1"/>
+      <node ref="SW43" pin="1"/>
+      <node ref="SW59" pin="1"/>
+      <node ref="SW59" pin="1"/>
+      <node ref="SW43" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW27" pin="1"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="SW51" pin="1"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="SW51" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="162" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="SW40" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW64" pin="1"/>
+      <node ref="SW64" pin="1"/>
+      <node ref="SW56" pin="1"/>
+      <node ref="SW56" pin="1"/>
+      <node ref="SW48" pin="1"/>
+      <node ref="SW40" pin="1"/>
+      <node ref="SW32" pin="1"/>
+      <node ref="SW32" pin="1"/>
+      <node ref="SW48" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="SW24" pin="1"/>
+      <node ref="SW24" pin="1"/>
+    </net>
+    <net code="163" name="Net-(R23-Pad1)">
+      <node ref="SW39" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="SW63" pin="1"/>
+      <node ref="SW63" pin="1"/>
+      <node ref="SW55" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW55" pin="1"/>
+      <node ref="SW47" pin="1"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW47" pin="1"/>
+      <node ref="SW39" pin="1"/>
+      <node ref="SW31" pin="1"/>
+      <node ref="SW31" pin="1"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW7" pin="1"/>
+    </net>
+    <net code="164" name="Net-(D18-Pad2)">
+      <node ref="D50" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="165" name="Net-(D20-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D52" pin="2"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="166" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D51" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="167" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="168" name="Net-(D1-Pad3)">
+      <node ref="D33" pin="3"/>
+      <node ref="D34" pin="3"/>
+      <node ref="D18" pin="3"/>
+      <node ref="U1" pin="15"/>
+      <node ref="D1" pin="3"/>
+      <node ref="D49" pin="3"/>
+      <node ref="D50" pin="3"/>
+      <node ref="D17" pin="3"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="169" name="Net-(R5-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="170" name="Net-(R4-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="171" name="Net-(R3-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="172" name="Net-(R2-Pad1)">
+      <node ref="U3" pin="6"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="173" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="174" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="175" name="Net-(D24-Pad2)">
+      <node ref="D40" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D56" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="176" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="177" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="178" name="Net-(D21-Pad2)">
+      <node ref="D37" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="179" name="Net-(D23-Pad2)">
+      <node ref="D55" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="180" name="Net-(D22-Pad2)">
+      <node ref="D54" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="181" name="Net-(R18-Pad1)">
+      <node ref="SW18" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW10" pin="1"/>
+      <node ref="SW10" pin="1"/>
+      <node ref="SW26" pin="1"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="SW42" pin="1"/>
+      <node ref="SW58" pin="1"/>
+      <node ref="SW58" pin="1"/>
+      <node ref="SW50" pin="1"/>
+      <node ref="SW50" pin="1"/>
+      <node ref="SW42" pin="1"/>
+      <node ref="SW34" pin="1"/>
+      <node ref="SW34" pin="1"/>
+      <node ref="SW26" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="182" name="Net-(R17-Pad1)">
+      <node ref="SW33" pin="1"/>
+      <node ref="SW33" pin="1"/>
+      <node ref="SW41" pin="1"/>
+      <node ref="SW57" pin="1"/>
+      <node ref="SW25" pin="1"/>
+      <node ref="SW41" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="SW17" pin="1"/>
+      <node ref="SW25" pin="1"/>
+      <node ref="SW17" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="SW57" pin="1"/>
+      <node ref="SW49" pin="1"/>
+      <node ref="SW49" pin="1"/>
+    </net>
+  </nets>
+</export>
