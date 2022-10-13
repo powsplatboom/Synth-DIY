@@ -1,0 +1,1 @@
+This folder contains all of my files that are unifinished or have glaring issues that need fixed. Some have yet to be spun as boards, some have been spun and require updates and a respin, some are abandoned projects. These are work in progress, please don't order these PCBs.
